@@ -114,7 +114,6 @@ alias ips='ip a;ip r'
 alias pub='curl ifconfig.me/ip'
 alias init='apt update -y ; apt update -y ; apt install -y sudo vim neofetch nmap dnsutils sshfs wget curl zip unzip iptables git top htop ; apt upgrade -y ; reboot'
 alias apg='apt list --installed | grep '
-alias resall='systemctl restart rclone ; systemctl restart jackett.service ; systemctl restart Radarr ; systemctl restart sonarr ; systemctl restart transmission-daemon.service ; systemctl restart plexmediaserver.service'
 
 ##########################
 # System specific changes#
