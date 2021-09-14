@@ -114,6 +114,7 @@ alias ips='ip a;ip r'
 alias pub='curl ifconfig.me/ip'
 alias init='apt update -y ; apt update -y ; apt install -y sudo vim neofetch nmap dnsutils sshfs wget curl zip unzip iptables git htop ; apt upgrade -y ; reboot'
 alias apg='apt list --installed | grep '
+alias uprc='wget 'https://raw.githubusercontent.com/ajax146/rc-files/master/.bashrc' -O ~/.bashrc'
 
 ##########################
 # System specific changes#
