@@ -120,7 +120,7 @@ alias uprc='wget 'https://raw.githubusercontent.com/ajax146/rc-files/master/.bas
 # System specific changes#
 ##########################
 
-source ~/.customrc
+source ~/.customrc 2>/dev/null
 
 #########
 # Start #
